@@ -8,19 +8,28 @@
 $shadow: .3rem .3rem .6rem var(--greyLight-2), -.2rem -.2rem .5rem var(--white);
 $inner-shadow: inset .2rem .2rem .5rem var(--greyLight-2), inset -.2rem -.2rem .5rem var(--white);
 
+body{
+  background-color: #e4eaf4;
+}
+
 .az-neu-btn{
   border: none;
   outline: none;
   background-color: transparent;
   box-shadow: $shadow;
   
-  &:hover {
-    color: teal;
-  }
-
   &:active{
     box-shadow: $inner-shadow;
-    color: teal;
   }
+}
 
+.az-neu-form{
+  border: none;
+  box-shadow: $inner-shadow;
+  background-color: transparent;
+
+  &:focus{
+    outline: none;
+    box-shadow: $shadow;
+  }
 }
