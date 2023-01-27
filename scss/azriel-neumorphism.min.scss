@@ -1,17 +1,27 @@
 :root{
   --primary: #cce1f2;
 
+  // light colors
   --white: #FFFFFF;
   --greyLight-2: #c8d0e7;
+  --bg-light: #e4eaf4;
+
+  // dark colors
+  --dark: #222327;
+  --greyDark-2: #363636;
 }
 
 $shadow: .3rem .3rem .6rem var(--greyLight-2), -.2rem -.2rem .5rem var(--white);
 $inner-shadow: inset .2rem .2rem .5rem var(--greyLight-2), inset -.2rem -.2rem .5rem var(--white);
 
+$shadow-dark: .3rem .3rem .6rem var(--dark), -.2rem -.2rem .5rem var(--greyDark-2);
+$inner-shadow-dark: inset .2rem .2rem .5rem var(--dark), inset -.2rem -.2rem .5rem var(--greyDark-2);
+
 body{
-  background-color: #e4eaf4;
+  background-color: #2b2c2f;
 }
 
+// light
 .az-neu-outset{
   border: none;
   outline: none;
@@ -32,4 +42,31 @@ body{
     outline: none;
     box-shadow: $shadow;
   }
+}
+
+
+// dark
+.az-neu-outset-dark{
+  border: none;
+  outline: none;
+  background-color: transparent;
+  box-shadow: $shadow-dark;
+
+  &:active {
+    box-shadow: $inner-shadow-dark;
+  }
+
+
+}
+
+.az-neu-inset-dark{
+  border: none;
+  box-shadow: $inner-shadow-dark;
+  background-color: transparent;
+
+  &:focus {
+    outline: none;
+    box-shadow: $shadow-dark;
+  }
+
 }
