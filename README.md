@@ -1,5 +1,5 @@
 # azriel-components
 
-- [x] az-neu-btn - neumorphism button
-- [x] az-neu-form - neumorphism form
+- [x] az-neu-sunken - neumorphism button
+- [x] az-neu-inset - neumorphism form
 
