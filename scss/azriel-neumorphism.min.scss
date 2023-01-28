@@ -23,8 +23,16 @@ body{
   background-color: #2b2c2f;
 }
 
-.az-neu-font-family{
+.az-neu-font{
   font-family: 'Poppins', sans-serif;
+}
+
+.az-neu-bg-dark{
+  background-color: #2b2c2f;
+}
+
+.az-neu-bg-light{
+  background-color: #fff;
 }
 
 // light
@@ -72,4 +80,16 @@ body{
     outline: none;
     box-shadow: $shadow-dark;
   }
+}
+
+// card
+.az-neu-outset-card-dark{
+  box-shadow: $shadow-dark;
+  background-color: transparent;
+}
+
+.az-neu-outset-card {
+  box-shadow: $shadow;
+  background-color: transparent;
+  border: none;
 }
