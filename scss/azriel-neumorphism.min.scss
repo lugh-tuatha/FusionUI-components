@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 :root{
   --primary: #cce1f2;
 
@@ -19,6 +21,10 @@ $inner-shadow-dark: inset .2rem .2rem .5rem var(--dark), inset -.2rem -.2rem .5r
 
 body{
   background-color: #2b2c2f;
+}
+
+.az-neu-font-family{
+  font-family: 'Poppins', sans-serif;
 }
 
 // light
@@ -55,8 +61,6 @@ body{
   &:active {
     box-shadow: $inner-shadow-dark;
   }
-
-
 }
 
 .az-neu-inset-dark{
@@ -68,5 +72,4 @@ body{
     outline: none;
     box-shadow: $shadow-dark;
   }
-
 }
