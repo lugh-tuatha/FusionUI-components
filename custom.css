@@ -14,9 +14,11 @@
   }
 }
 
+.az-neu-inset-table,
+.az-neu-inset-table-dark,
 .az-brutalism-table,
-.az-neu-table-dark,
-.az-neu-table{
+.az-neu-outset-table-dark,
+.az-neu-outset-table{
   width: 90%;
   margin: 0 auto;
 }

@@ -12,6 +12,9 @@
   // dark colors
   --az-neu-shadow-bottom-left-dark: #222327;
   --az-neu-shadow-top-right-dark: #363636;
+
+  --az-table-border-bottom-light: rgba(255, 255, 255, 0.1);
+  --az-table-border-bottom-dark: rgba(0, 0, 0, 0.1);
 }
 
 $shadow: .3rem .3rem .6rem var(--az-neu-shadow-bottom-left-light), -.2rem -.2rem .5rem var(--az-neu-shadow-top-right-light);
@@ -92,20 +95,34 @@ body {
 }
 
 // table
-.az-neu-table-dark {
+.az-neu-outset-table-dark {
   box-shadow: $shadow-dark;
-  width: 100%;
 
   tr {
-    border-bottom: rgba(255, 255, 255, 0.1);
+    border-bottom: var(--az-table-border-bottom-light);
   }
 }
 
-.az-neu-table {
+.az-neu-inset-table-dark {
+  box-shadow: $inner-shadow-dark;
+  
+  tr {
+    border-bottom: var(--az-table-border-bottom-light);
+  }
+}
+
+.az-neu-outset-table {
   box-shadow: $shadow;
-  width: 100%;
 
   tr {
-    border-bottom: rgba(0, 0, 0, 0.1);
+    border-bottom: var(--az-table-border-bottom-dark);
+  }
+}
+
+.az-neu-inset-table {
+  box-shadow: $inner-shadow;
+
+  tr {
+    border-bottom: var(--az-table-border-bottom-dark);
   }
 }

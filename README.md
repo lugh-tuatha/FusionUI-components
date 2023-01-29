@@ -7,8 +7,13 @@
     - [x] az-neu-inset-dark - neumorphism inset shadow light
 - [x] az-neu-outset-card - card neumorphism
     - [x] az-neu-outset-card-dark - card neumorphism dark
-- [x] .az-neu-table - table neumorphism
-    - [x] .az-neu-table-dark - table neumorphism dark
+- [x] Table
+    - [x] .az-neu-outset-table - light table neumorphism outset
+    - [x] .az-neu-outset-table-dark - dark table neumorphism outset
+    - [x] .az-neu-inset-table - light table neumorphism inset
+    - [x] .az-neu-inset-table-dark - dark table neumorphism inset
+
+
 
 ## Neo-brutalism
 - [x] typography
