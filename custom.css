@@ -13,3 +13,10 @@
     background-position: 100% 0%;
   }
 }
+
+.az-brutalism-table,
+.az-neu-table-dark,
+.az-neu-table{
+  width: 90%;
+  margin: 0 auto;
+}

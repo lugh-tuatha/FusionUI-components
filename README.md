@@ -7,6 +7,8 @@
     - [x] az-neu-inset-dark - neumorphism inset shadow light
 - [x] az-neu-outset-card - card neumorphism
     - [x] az-neu-outset-card-dark - card neumorphism dark
+- [x] .az-neu-table - table neumorphism
+    - [x] .az-neu-table-dark - table neumorphism dark
 
 ## Neo-brutalism
 - [x] typography
@@ -14,7 +16,7 @@
     - [x] az-brutalism-font-text - JetBrains Mono font for text
 - [x] az-brutalism-btn - neo brutalism base btn design
 - [x] az-brutalism-card - neo brutalism base card design
-
+- [x] az-brutalism-icon - neo brutalism base icon design
 
 
 
