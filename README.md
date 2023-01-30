@@ -12,6 +12,7 @@
     - [x] .az-neu-outset-table-dark - dark table neumorphism outset
     - [x] .az-neu-inset-table - light table neumorphism inset
     - [x] .az-neu-inset-table-dark - dark table neumorphism inset
+- [ ] Sidebar - neumorphism
 
 
 
@@ -22,7 +23,7 @@
 - [x] az-brutalism-btn - neo brutalism base btn design
 - [x] az-brutalism-card - neo brutalism base card design
 - [x] az-brutalism-icon - neo brutalism base icon design
-
+- [ ] Sidebar - neo brutalism
 
 
 
