@@ -7,6 +7,7 @@
   --az-btn-box-shadow: .25rem .25rem #000;
   --az-box-shadow-50: .50rem .50rem 0 #000;
   --az-border-30: solid .3rem #000;
+  --az-shadow-radius-25: .25rem;
 }
 
 .az-brutalism-font-title{
@@ -75,4 +76,17 @@ table.az-brutalism-table {
     transform: translate(.25rem, .25rem);
     box-shadow: .10rem .10rem #000;
   }
+}
+
+// shadow-radius-0
+.az-brutalism-shadow-radius-0{
+  border: var(--az-border-30);
+  box-shadow: var(--az-box-shadow-50);
+}
+
+// shadow-radius-25
+.az-brutalism-shadow-radius-1{
+  border: var(--az-border-30);
+  box-shadow: var(--az-box-shadow-50);
+  border-radius: var(--az-shadow-radius-25);
 }

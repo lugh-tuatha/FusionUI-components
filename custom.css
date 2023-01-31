@@ -14,11 +14,28 @@
   }
 }
 
-.az-neu-inset-table,
+/* .az-neu-inset-table,
 .az-neu-inset-table-dark,
 .az-brutalism-table,
 .az-neu-outset-table-dark,
 .az-neu-outset-table{
   width: 90%;
   margin: 0 auto;
+} */
+
+.az-brutalism-shadow-radius-0 p{
+  font-size: 3rem;
+  margin: 0 .60rem;
+  text-align: center;
+}
+
+.az-brutalism-shadow-radius-0{
+  width: 70px;
+  height: 70px;
+  margin-top: 1rem;
+}
+
+.neo{
+  display: flex;
+  gap: 1rem;
 }
