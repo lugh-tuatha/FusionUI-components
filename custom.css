@@ -14,6 +14,11 @@
   }
 }
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
 /* .az-neu-inset-table,
 .az-neu-inset-table-dark,
 .az-brutalism-table,

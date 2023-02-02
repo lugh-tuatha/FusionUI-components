@@ -22,6 +22,7 @@
     - [x] az-brutalism-font-text - JetBrains Mono font for text
 - [x] az-brutalism-btn - neo brutalism base btn design
 - [x] az-brutalism-card - neo brutalism base card design
+    -[x] az-brutalism-card-hover - card with translate and bex shadow when hovered 
 - [x] az-brutalism-icon - neo brutalism base icon design
 - [x] shadow
     - [x] az-brutalism-shadow-radius-0 - no shadow radius brutalism
