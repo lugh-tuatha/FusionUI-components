@@ -23,11 +23,13 @@
 - [x] az-brutalism-btn - neo brutalism base btn design
 - [x] az-brutalism-card - neo brutalism base card design
     -[x] az-brutalism-card-hover - card with translate and bex shadow when hovered 
+    -[x] az-brutalism-card-left - same as card but box shadow is positioned to left
 - [x] az-brutalism-icon - neo brutalism base icon design
 - [x] shadow
     - [x] az-brutalism-shadow-radius-0 - no shadow radius brutalism
     - [x] az-brutalism-shadow-radius-2 -lightly have shadow
 - [ ] Sidebar - neo brutalism
+- [ ] Navigation
 
 
 

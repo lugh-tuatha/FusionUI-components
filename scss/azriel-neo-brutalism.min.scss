@@ -7,12 +7,17 @@
   --az-btn-box-shadow: .25rem .25rem #000;
   --az-box-shadow-50: .50rem .50rem 0 #000;
   --az-box-shadow-25: .25rem .25rem 0 #000;
+  --az-box-shadow-15: .15rem .15rem 0 #000;
+  --az-box-shadow-50-left: -.50rem .50rem 0 #000;
+  --az-box-shadow-25-left: -.25rem .25rem 0 #000;
+  --az-box-shadow-15-left: -.15rem .15rem 0 #000;
   --az-box-shadow-100: 1rem 1rem 0 #000;
   --az-border-30: solid .3rem #000;
   --az-border-10: solid .1rem #000;
   --az-shadow-radius-25: .25rem;
   --az-brutalism-color-green: #01fe9f;
   --az-brutalism-color-pink: #9d7aff;
+  
 }
 
 .az-brutalism-font-title{
@@ -48,6 +53,24 @@
     font-weight: 900;
   }
   img{
+    width: 95%;
+    margin: 2.5% auto;
+    border: var(--az-border-30);
+    border-radius: 0;
+  }
+}
+
+.az-brutalism-card-left {
+  border-radius: 1.25rem;
+  background-color: var(--az-card-color-blue);
+  border: var(--az-border-30);
+  box-shadow: var(--az-box-shadow-25-left);
+
+  .az-brutalism-card-title {
+    font-weight: 900;
+  }
+
+  img {
     width: 95%;
     margin: 2.5% auto;
     border: var(--az-border-30);
