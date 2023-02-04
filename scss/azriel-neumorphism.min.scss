@@ -126,3 +126,63 @@ body {
     border-bottom: var(--az-table-border-bottom-dark);
   }
 }
+
+// circle dark
+
+.az-neu-inset-circle-dark{
+  border-radius: 50%;
+  background-color: transparent;
+  box-shadow: $inner-shadow-dark;
+  width: 24rem;
+  height: 24rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .az-neu-inside-circle-dark{
+    width: 22rem;
+    border-radius: 50%;
+    height: 22rem;
+    background-color: transparent;
+    box-shadow: $shadow-dark;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .az-neu-inset-circle-img-dark{
+    border-radius: 50%;
+    width: 21rem;
+    height: 21rem;
+  }
+}
+
+// circle light
+
+.az-neu-inset-circle {
+  border-radius: 50%;
+  background-color: transparent;
+  box-shadow: $inner-shadow;
+  width: 24rem;
+  height: 24rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .az-neu-inside-circle {
+    width: 22rem;
+    border-radius: 50%;
+    height: 22rem;
+    background-color: transparent;
+    box-shadow: $shadow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .az-neu-inset-circle-img {
+    border-radius: 50%;
+    width: 21rem;
+    height: 21rem;
+  }
+}

@@ -13,8 +13,12 @@
     - [x] .az-neu-inset-table - light table neumorphism inset
     - [x] .az-neu-inset-table-dark - dark table neumorphism inset
 - [ ] Sidebar - neumorphism
-
-
+- [ ] Navigation
+- [x] Circle frame - neumorphism style frame
+    - [x] az-neu-inset-circle - parent
+    - [x] az-neu-inside-circle - child
+    - [x] az-neu-inset-circle-img - for image 
+    - [x] dark mode
 
 ## Neo-brutalism
 - [x] typography
