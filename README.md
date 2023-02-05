@@ -13,7 +13,9 @@
     - [x] .az-neu-inset-table - light table neumorphism inset
     - [x] .az-neu-inset-table-dark - dark table neumorphism inset
 - [ ] Sidebar - neumorphism
-- [ ] Navigation
+- [x] Navigation
+        - [ ] add responsive view
+        - [ ] fix design
 - [x] Circle frame - neumorphism style frame
     - [x] az-neu-inset-circle - parent
     - [x] az-neu-inside-circle - child

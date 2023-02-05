@@ -16,8 +16,12 @@
   --az-border-10: solid .1rem #000;
   --az-shadow-radius-25: .25rem;
   --az-brutalism-color-green: #01fe9f;
-  --az-brutalism-color-pink: #9d7aff;
-  
+  --az-brutalism-color-pink: #9d7aff; 
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 .az-brutalism-font-title{
@@ -33,10 +37,8 @@
   border: var(--az-border-30);
   box-shadow: var(--az-btn-box-shadow);
   background: var(--az-brutalism-color-yellow);
-  color: #000;
   padding: .5rem;
   transition: all 200ms;
-  text-decoration: none;
   &:hover{
     transform: translate(.25rem, .2rem);
     box-shadow: .15rem .15rem #000;
