@@ -1,4 +1,4 @@
-# azriel-components
+# FusionUI-components
 
 ## Neumorphism
 - [x] az-neu-outset - neumorphism outset shadow
