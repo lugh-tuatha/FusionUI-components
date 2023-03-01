@@ -122,4 +122,5 @@ table.az-brutalism-table {
 .az-brutalism-card-hover:hover {
   box-shadow: var(--az-box-shadow-25);
   transform: translate(-0.1rem, -0.1rem);
-}/*# sourceMappingURL=azriel-neo-brutalism.min.css.map */
+  margin: 0;
+}
