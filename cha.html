@@ -4,10 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/fusion-futuristic.css">
+    <link rel="stylesheet" href="index.css">
     <title>Document</title>
+    <script>
+            function toggleMenu() {
+        var nav = document.querySelector('nav');
+        nav.classList.toggle('show');
+      }
+    </script>
 </head>
+
 <body>
+  <nav class="fu-futuristic-nav-dark_vio">
+		<ul class="menu">
+			<li><a href="#">LOGO</a></li>
+      <li><a href="#">Home</a></li>
+			<li><a href="#">About Us</a></li>
+			<li><a href="#">Products</a></li>
+			<li><a href="#">Services</a></li>
+			<li><a href="#">Contact Us</a></li>
+			<li class="search"><input type="text" placeholder="Search"></li>
+			<li class="login"><a href="#">Log in</a></li>
+			<li class="icon"><a href="javascript:void(0);" onclick="myFunction()">&#9776;</a></li>
+		</ul>
+	</nav>
+
+	<script>
+		function myFunction() {
+			var x = document.getElementsByClassName("menu")[0];
+			if (x.className === "menu") {
+				x.className += " responsive";
+			} else {
+				x.className = "menu";
+			}
+		}
+	</script>
+  <hr>
+  <hr>
+  <hr>
+  <hr>
+  <hr>
+  <hr>
     <button class="fu-futuristic-btn-dark_vio">Click Me</button>
     <button class="fu-futuristic-btn-dark_red">Click Me</button>
     <button class="fu-futuristic-btn-dark_grn">Click Me</button>
@@ -83,6 +120,39 @@
           </table>
     </div>
 
+    <div class="div">
+      <table class="fu-futuristic-tble-dark_grn">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Age</th>
+              <th>City</th>
+              <th>Country</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>John Doe</td>
+              <td>25</td>
+              <td>New York</td>
+              <td>USA</td>
+            </tr>
+            <tr>
+              <td>Jane Doe</td>
+              <td>30</td>
+              <td>Los Angeles</td>
+              <td>USA</td>
+            </tr>
+            <tr>
+              <td>Bob Smith</td>
+              <td>40</td>
+              <td>Toronto</td>
+              <td>Canada</td>
+            </tr>
+          </tbody>
+        </table>
+  </div>
+
     <hr>
 <div class="cardclass">
     <div class="fu-futuristic-card-dark_vio">
@@ -111,6 +181,15 @@
           <button class="card-button">Learn More</button>
         </div>
     </div>
+
+    <div class="fu-futuristic-card-dark_blue">
+      <div class="card-image"><img src="img/Horimiya2.jpg" alt=""></div>
+      <div class="card-content">
+        <h3 class="card-title">Card Title</h3>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam euismod enim id felis fringilla commodo.</p>
+        <button class="card-button">Learn More</button>
+      </div>
+  </div>
 </div>     
 </body>
 </html>

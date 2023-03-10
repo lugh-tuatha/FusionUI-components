@@ -1,3 +1,101 @@
+.fu-futuristic-nav-dark_vio {
+  background: linear-gradient(to right, #000000, #000000, #6a0194);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+  padding: 10px;
+}
+
+
+.menu {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+.menu li {
+	float: left;
+}
+
+.menu li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.menu li a:hover {
+	color: #6a0194;
+}
+
+.search input[type="text"] {
+	padding: 8px;
+	margin-top: 8px;
+	font-size: 17px;
+	border: none;
+	border-radius: 22px;
+	background-color: #f1f1f1;
+}
+
+.login a {
+  background: linear-gradient(to right, #000000, #000000, #6a0194);
+	color: white;
+	padding: 8px 16px;
+	border-radius: 22px;
+	margin-top: 8px;
+	margin-left: 8px;
+	float: right;
+}
+
+.menu .login a:hover {
+  background: linear-gradient(to left, #000000, #000000, #6a0194);
+  color: white;
+}
+
+.icon {
+	display: none;
+}
+
+@media screen and (max-width: 600px) {
+	.menu li:not(:first-child) {
+		display: none;
+	}
+	.menu li.icon {
+		float: right;
+		display: block;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.menu.responsive {
+		position: relative;
+	}
+	.menu.responsive li.icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.menu.responsive li {
+		float: none;
+		display: block;
+	}
+	.menu.responsive li a {
+		text-align: center;
+	}
+	.search input[type="text"] {
+		width: 100%;
+		margin-bottom: 12px;
+	}
+	.login a {
+		float: none;
+		display: block;
+		text-align: center;
+	}
+}
 
 .fu-futuristic-btn-dark_vio {
     background: linear-gradient(to right, #000000, #000000, #6a0194);
@@ -118,6 +216,32 @@
   .fu-futuristic-tble-dark_red tr:hover {
     background-color: #a70000;
   }
+
+  .fu-futuristic-tble-dark_grn {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+    background: linear-gradient(to right, #000000,  #000000, #187700);
+  }
+  
+  .fu-futuristic-tble-dark_grn th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #555;
+    color: white;
+
+  }
+  
+  .fu-futuristic-tble-dark_grn th {
+    background-color: #000000;
+    color: white;
+  }
+  
+  
+  .fu-futuristic-tble-dark_grn tr:hover {
+    background-color: #187700;
+  }
+
 
 
   .cardclass {
@@ -297,5 +421,59 @@
     cursor: pointer;
   }
 
- 
+  .fu-futuristic-card-dark_blue {
+    width: 100%;
+    max-width: 300px;
+    background-color: #131010;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px auto;
+  }
 
+  .fu-futuristic-card-dark_blue .card-image {
+    height: 150px;
+    background-color: #02008a;
+  }
+
+  .fu-futuristic-card-dark_blue .card-image img{
+    height: 150px;
+    background-color: #02008a;
+    width: 100%;
+  }
+  
+  .fu-futuristic-card-dark_blue .card-content {
+    padding: 20px;
+  }
+  
+  .fu-futuristic-card-dark_blue .card-title {
+    color: #fff;
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  .fu-futuristic-card-dark_blue .card-text {
+    color: #ddd;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .fu-futuristic-card-dark_blue .card-button {
+    display: block;
+    width: 100%;
+    background: linear-gradient(to right, #000000,  #000000, #02008a);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 24px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .fu-futuristic-card-dark_blue .card-button:hover {
+    background: linear-gradient(to left, #000000,  #000000, #02008a);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  } 
