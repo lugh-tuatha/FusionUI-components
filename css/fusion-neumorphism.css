@@ -44,7 +44,7 @@ a {
 .fu-neu-inset {
   border: none;
   box-shadow: inset 0.2rem 0.2rem 0.5rem var(--fu-neu-shadow-bottom-left-light), inset -0.2rem -0.2rem 0.5rem var(--fu-neu-shadow-top-right-light);
-  background-color: transparent;
+  background-color: transparent; 
 }
 .fu-neu-inset:hover {
   box-shadow: 0.3rem 0.3rem 0.6rem var(--fu-neu-shadow-bottom-left-light), -0.2rem -0.2rem 0.5rem var(--fu-neu-shadow-top-right-light);

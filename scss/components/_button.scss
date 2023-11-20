@@ -1,0 +1,15 @@
+.brutalism__btn{
+  border-radius: 0.8rem;
+  border: var(--fu-border-30);
+  box-shadow: var(--fu-btn-box-shadow);
+  background: var(--fu-brutalism-primary);
+  padding: 0.5rem;
+  transition: all 200ms;
+  cursor: pointer;
+
+  &:hover{
+    transform: translate(0.25rem, 0.2rem);
+    box-shadow: 0.15rem 0.15rem #000;
+    background-color: #fefffe;
+  }
+}

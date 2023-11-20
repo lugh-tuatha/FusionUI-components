@@ -1,0 +1,25 @@
+nav{
+  border-bottom: 2px solid black;
+  .brutalism {
+    &__nav {
+      width: 90%;
+      margin: .25rem auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: white;
+    }
+  }
+
+  .nav__links {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+
+    ul {
+      list-style: none;
+      display: flex;
+      gap: 3rem;
+    }
+  }
+}

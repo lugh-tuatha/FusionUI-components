@@ -1,125 +1,53 @@
-@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&display=swap");
-:root {
-  --fu-brutalism-color-yellow: #f8ff1d;
-  --fu-card-color-blue: #00f1fe;
-  --fu-btn-box-shadow: .25rem .25rem #000;
-  --fu-box-shadow-50: .50rem .50rem 0 #000;
-  --fu-box-shadow-25: .25rem .25rem 0 #000;
-  --fu-box-shadow-15: .15rem .15rem 0 #000;
-  --fu-box-shadow-50-left: -.50rem .50rem 0 #000;
-  --fu-box-shadow-25-left: -.25rem .25rem 0 #000;
-  --fu-box-shadow-15-left: -.15rem .15rem 0 #000;
-  --fu-box-shadow-100: 1rem 1rem 0 #000;
-  --fu-border-30: solid .3rem #000;
-  --fu-border-10: solid .1rem #000;
-  --fu-shadow-radius-25: .25rem;
-  --fu-brutalism-color-green: #01fe9f;
-  --fu-brutalism-color-pink: #9d7aff;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
-.fu-brutalism-font-title {
-  font-family: "Press Start 2P", cursive;
-}
-
-.fu-brutalism-font-text {
-  font-family: "JetBrains Mono", monospace;
-}
-
-.fu-brutalism-btn {
-  border-radius: 0.8rem;
-  border: var(--fu-border-30);
-  box-shadow: var(--fu-btn-box-shadow);
-  background: var(--fu-brutalism-color-yellow);
-  padding: 0.5rem;
-  transition: all 200ms;
-}
-.fu-brutalism-btn:hover {
-  transform: translate(0.25rem, 0.2rem);
-  box-shadow: 0.15rem 0.15rem #000;
-  background-color: #fefffe;
-}
-
-.fu-brutalism-card {
-  border-radius: 1.25rem;
-  background-color: var(--fu-card-color-blue);
-  border: var(--fu-border-30);
-  box-shadow: var(--fu-box-shadow-50);
-}
-.fu-brutalism-card .fu-brutalism-card-title {
-  font-weight: 900;
-}
-.fu-brutalism-card img {
-  width: 95%;
-  margin: 2.5% auto;
-  border: var(--fu-border-30);
-  border-radius: 0;
-}
-
-.fu-brutalism-card-left {
+.fu-b-card-left {
   border-radius: 1.25rem;
   background-color: var(--fu-card-color-blue);
   border: var(--fu-border-30);
   box-shadow: var(--fu-box-shadow-25-left);
+  width: 25rem;
 }
-.fu-brutalism-card-left .fu-brutalism-card-title {
+
+.fu-b-card-left .fu-b-card-title {
   font-weight: 900;
 }
-.fu-brutalism-card-left img {
+
+.fu-b-card-left img {
   width: 95%;
   margin: 2.5% auto;
   border: var(--fu-border-30);
   border-radius: 0;
 }
 
-table.fu-brutalism-table {
+table.fu-b-table {
   border-collapse: separate;
   border-radius: 1.25rem;
 }
 
-.fu-brutalism-table {
+.fu-b-table {
   border: var(--fu-border-30);
   border-radius: 1.25rem;
   box-shadow: var(--fu-box-shadow-50);
   background-color: var(--fu-card-color-blue);
 }
 
-.fu-brutalism-icon {
-  border: var(--fu-border-30);
-  border-radius: 25%;
-  box-shadow: var(--fu-btn-box-shadow);
-  transition: all 300ms ease;
-  cursor: pointer;
-  color: #000;
-}
-.fu-brutalism-icon:hover {
-  transform: translate(0.25rem, 0.25rem);
-  box-shadow: 0.1rem 0.1rem #000;
-}
-
-.fu-brutalism-shadow-radius-0 {
+.fu-b-shadow-radius-0 {
   border: var(--fu-border-30);
   box-shadow: var(--fu-box-shadow-50);
 }
 
-.fu-brutalism-shadow-radius-1 {
+.fu-b-shadow-radius-1 {
   border: var(--fu-border-30);
   box-shadow: var(--fu-box-shadow-50);
   border-radius: var(--fu-shadow-radius-25);
 }
 
-.fu-brutalism-card-hover {
+.fu-b-card-hover {
   background-color: lightblue;
   border: var(--fu-border-10);
   transform: translate(0.1rem, 0.1rem);
   transition: all 0.5s ease;
 }
-.fu-brutalism-card-hover:hover {
+
+.fu-b-card-hover:hover {
   box-shadow: var(--fu-box-shadow-25);
   transform: translate(-0.1rem, -0.1rem);
   margin: 0;
