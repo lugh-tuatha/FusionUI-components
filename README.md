@@ -36,8 +36,3 @@
     - [x] fu-brutalism-shadow-radius-2 -lightly have shadow
 - [ ] Sidebar - neo brutalism
 - [ ] Navigation
-
-## Futuristic
-- [ ] Navbar
-- [ ] Cards
-- [ ] button
