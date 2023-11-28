@@ -1,3 +1,5 @@
+@use '../util/' as u;
+
 .brutalism-card{
   border-radius: 1.25rem;
   background-color: var(--fu-card-color-blue);
@@ -9,7 +11,9 @@
 
   &__title{
     font-weight: 900;
-    margin: .25rem;
+    font-size: 1rem;
+    margin: 1rem .25rem .25rem .25rem;
+    font-family: u.$font-title;
   }
 
   &__image{
@@ -29,6 +33,4 @@
   &__footer{
     margin: 1rem 0;
   }
-
-
 }
