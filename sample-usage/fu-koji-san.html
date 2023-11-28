@@ -2,16 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Fusion Denso</title>
+    <title>Fusion koji-san</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="../dist/fusion-globals.css">
     <link rel="stylesheet" href="../dist/fussion-koji-san.css">
+    <link rel="stylesheet" href="../css/koji-san.css">
 </head>
 <body>
-    <div class="denso__background">
-        
+    <div class="koji__background">
+        <div class="flex items-center justify-center w-screen h-screen gap-4">
+            <div class="flex-col flex gap-4">
+                <div class="text-white flex items-center justify-between gap-6">
+                    <label class="text-xl">Login ID:</label>
+                    <input type="text" class="text-black p-3 input-border">
+                </div>
+
+                <div class="text-white flex items-center justify-between gap-6">
+                    <label class="text-xl">Password:</label>
+                    <input type="text" class="text-black p-3 input-border">
+                </div>
+
+                <div class="flex justify-end gap-4">
+                    <button class="koji__btn">log in</button>
+                    <button class="koji__btn">reset</button>
+                </div>
+            </div>
+
+        </div>
     </div>
 </body>
 </html>
