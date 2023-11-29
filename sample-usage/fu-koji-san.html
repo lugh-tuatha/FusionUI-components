@@ -22,22 +22,35 @@
             </div>
             <div class="flex-col flex gap-4">
                 <div class="text-white flex items-center justify-between gap-6">
-                    <label class="text-xl">Login ID:</label>
+                    <label class="text-2xl">Login ID:</label>
                     <input type="text" class="text-black p-3 input-border">
                 </div>
 
                 <div class="text-white flex items-center justify-between gap-6">
-                    <label class="text-xl">Password:</label>
+                    <label class="text-2xl">Password:</label>
                     <input type="text" class="text-black p-3 input-border">
                 </div>
 
                 <div class="flex justify-end gap-4 mr-3">
                     <button class="koji__btn">log in</button>
-                    <button class="koji__btn">reset</button>
+                    <button class="koji__btn" id="openDialog">reset</button>
                 </div>
             </div>
             <h2 class="absolute bottom-2 right-2 koji__watermark">DENSO Philippines Corporation</h2>
         </div>
     </div>
+
+    <dialog id="showModal">
+        <div  class="border border-red-500 " >
+            <div class="text-red-900" id="closeDialog">X</div>
+            test
+            test
+            test
+            test
+            test
+        </div>
+    </dialog>
+
+    <script src="../js/denso.koji-san.js"></script>
 </body>
 </html>
