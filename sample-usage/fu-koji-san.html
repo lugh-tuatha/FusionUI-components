@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Fusion koji-san</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="../dist/fusion-globals.css">
     <link rel="stylesheet" href="../css/koji-san.css">
     <link rel="stylesheet" href="../dist/fussion-koji-san.css">
@@ -32,22 +33,51 @@
                 </div>
 
                 <div class="flex justify-end gap-4 mr-3">
-                    <button class="koji__btn">log in</button>
-                    <button class="koji__btn" id="openDialog">reset</button>
+                    <button class="koji__btn btn__shadow">log in</button>
+                    <button class="koji__btn btn__shadow" id="openDialog">reset</button>
                 </div>
             </div>
-            <h2 class="absolute bottom-2 right-2 koji__watermark">DENSO Philippines Corporation</h2>
+            <h2 class="absolute bottom-2 right-2 koji__watermark text-white">DENSO Philippines Corporation</h2>
         </div>
     </div>
 
     <dialog id="showModal">
-        <div  class="border border-red-500 " >
-            <div class="text-red-900" id="closeDialog">X</div>
-            test
-            test
-            test
-            test
-            test
+        <div class="koji__modal">
+            <div class="modal__header">
+                <h1>New Part</h1>
+                <div class="text-red-900 modal__close" id="closeDialog">
+                    <i class="fa-solid fa-x"></i>
+                </div>  
+            </div>
+
+            <div class="modal__content">
+                Fill out necessary information to add part
+
+                <form class="px-6 mt-4 py-4 border-dashed border-2 border-[#bfbfbf]">
+                    <div class="flex items-center justify-between gap-20">
+                        <h1 class="font-bold">Part ID: </h1>
+                        <p>P003315</p>
+                    </div>
+
+                    <div class="flex items-center justify-between gap-20">
+                        <h1 class="font-bold">Part Name:</h1>
+                        <input type="text" class="koji__input w-80">
+                    </div>
+
+                    <div class="flex items-center justify-between gap-20">
+                        <h1 class="font-bold">KPI value (sec):</h1>
+                        <input type="text" class="koji__input w-80">
+                    </div>
+
+                    <h2 class="text-red-500 font-semibold my-16">* Required Items</h2>
+                </form>
+
+                <div class="flex justify-center gap-4 mt-8 mb-2">
+                    <button class="koji__btn bg-[#bfbfbf]">Add and close</button>
+                    <button class="koji__btn bg-[#bfbfbf]">Add and continue</button>
+                    <button class="koji__btn bg-[#bfbfbf]">Clear</button>
+                </div>
+            </div>
         </div>
     </dialog>
 

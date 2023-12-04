@@ -1,0 +1,32 @@
+.koji__modal{
+    background-color: #4472c4;
+    padding: .25rem;
+    border: 1.5px solid black;
+
+    .modal__header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h1{
+            font-weight: 500;
+            color: white;
+        }
+
+        .modal__close{
+            background-color: white;
+            padding: .1rem .45rem;
+            border: 1.5px solid black;
+            cursor: pointer;
+            i{
+                color: black;
+            }
+        }
+    }
+
+    .modal__content{
+        margin-top: .25rem;
+        padding: 1.5rem 1rem;
+        background-color: #fbe5d6;
+        border: 1.5px solid black;
+    }
+}
