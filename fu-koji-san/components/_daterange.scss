@@ -1,0 +1,18 @@
+.koji__daterange{
+    table, th, td{
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+    th, td{
+        padding: .25rem .5rem;
+    }
+}
+
+.daterange__text{
+    text-align: center;
+    background-color: var(--blue-800);
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+}
