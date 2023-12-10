@@ -7,27 +7,28 @@
     z-index: 1;
     margin-bottom: -300px;
     font-size: 10px;
-    font-family: "fira-sans-2", Verdana, sans-serif;
 
-    div {
-        position: relative;
-        border-bottom: 1px solid black;
-        height: 60px;
-        width: 100%;
-        p{
-            font-weight: 600;
-            position: absolute;
-            left: -5em;
-            top: -0.8em;
-            margin: 0 0 0 0.5em;
-        }
-
-        &:last-child{
-            border-bottom: 2px solid black;
-        }
-
-        &:first-child{
-            border-top: 2px solid black;
+    .ticks{
+        div {
+            position: relative;
+            border-bottom: 1px solid black;
+            height: 60px;
+            width: 100%;
+            p{
+                font-weight: 700;
+                position: absolute;
+                left: -5em;
+                top: -0.8em;
+                margin: 0 0 0 0.5em;
+            }
+    
+            &:last-child{
+                border-bottom: 2px solid black;
+            }
+    
+            &:first-child{
+                border-top: 2px solid black;
+            }
         }
     }
 }
